@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "compounds": [
+        {
+            "name": "bmi_calc_mobile",
+            "configurations": [
+                "bmi_calc_android",
+                "bmi_calc_ios"
+            ]
+        }
+    ],
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bmi_calc",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bmi_calc_android",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "bmi_calc_ios",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "E1EE30CB-17A7-4C31-8A74-4228B7A3748A"
+        },
+        {
+            "name": "bmi_calc (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bmi_calc (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
